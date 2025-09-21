@@ -18,4 +18,7 @@ Fitur-fitur pada Aplikasi ini:
 
 Aplikasi ini sudah dideploy menggunakan Streamlit Cloud dan dapat diakses di sini: https://loanapprovementgarentecklesia.streamlit.app/
 
-   
+Preview Aplikasi:
+<img width="1913" height="892" alt="image" src="https://github.com/user-attachments/assets/7400a5bb-3c3c-4418-b8b1-480d289cfae6" />
+<img width="1915" height="877" alt="image" src="https://github.com/user-attachments/assets/9124cd7a-d3ae-4b22-b460-6641baebb963" />
+
