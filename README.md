@@ -1,24 +1,56 @@
-# Loan_Approvement
-Predict Loan Improvement With Random Forest Classification
+# 💰 Loan Approval Prediction
 
-Proyek ini adalah aplikasi machine learning berbasis Streamlit yang memprediksi kemungkinan seseorang mendapatkan persetujuan pinjaman (loan approval).
-Model machine learning yang digunakan adalah Random Forest Classifier, dilatih menggunakan dataset kredit untuk memprediksi apakah pinjaman akan lunas atau berisiko gagal bayar.
+This is a Streamlit-based machine learning application that predicts the likelihood of a person getting loan approval. The model used is a **Random Forest Classifier**, trained on a historical credit dataset to predict whether a loan will be paid off or is at risk of default.
 
-Aplikasi ini dikembangkan sebagai bagian dari portofolio Data Science & Machine Learning, dengan tujuan:
+This project was developed as part of a Data Science & Machine Learning portfolio to demonstrate skills in data preprocessing, model building, and interactive application deployment.
 
-1. Menunjukkan kemampuan dalam data preprocessing, model building, dan evaluasi.
-2. Membuat aplikasi interaktif yang dapat diakses secara online.
-3. Memberikan gambaran nyata bagaimana ML dapat membantu sektor keuangan dalam pengambilan keputusan.
+## 🚀 Live Demo
 
-Fitur-fitur pada Aplikasi ini:
-1. Input data peminjam melalui form interaktif:
-2. Prediksi Status Pinjaman (✅ Kemungkinan Lunas & ⚠️ Berisiko Gagal Bayar)
-3. Menampilkan hasil prediksi dalam persentase keyakinan model dalam meprediksi.
-4. Menyediakan test cases untuk mencoba skenario berbeda.
+This application has been deployed using Streamlit Cloud and can be accessed here:
 
-Aplikasi ini sudah dideploy menggunakan Streamlit Cloud dan dapat diakses di sini: https://loanapprovementgarentecklesia.streamlit.app/
+[**➡️ Click here to launch the Streamlit App**](https://loanapprovementgarentecklesia.streamlit.app/)
 
-Preview Aplikasi:
-<img width="1913" height="892" alt="image" src="https://github.com/user-attachments/assets/7400a5bb-3c3c-4418-b8b1-480d289cfae6" />
-<img width="1915" height="877" alt="image" src="https://github.com/user-attachments/assets/9124cd7a-d3ae-4b22-b460-6641baebb963" />
+## 💡 Application Features
 
+* **Interactive Form:** Manually enter borrower data via a form in the sidebar.
+* **Loan Status Prediction:** Provides a prediction outcome (✅ **Likely to be Paid Off** or ⚠️ **Risk of Default**).
+* **Confidence Score:** Displays the model's prediction confidence as a percentage.
+* **Test Cases:** Provides sample data to quickly test different borrower scenarios.
+
+## ⚙️ Tech Stack
+
+* **Data Handling & Analysis:** Pandas, NumPy
+* **Machine Learning:** Scikit-learn
+* **Web Framework:** Streamlit
+* **Deployment Platform:** Streamlit Cloud
+
+## 🧠 Model Details
+
+* **Model:** **Random Forest Classifier**
+* **Objective:** To predict loan status (Paid Off / Default).
+* **Dataset:** Trained on a historical credit dataset. *(You can add a link to the Kaggle/source dataset here)*
+
+## 🛠️ How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/GarentEcklesia/Loan_Approvement.git
+    cd Loan_Approvement
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the Streamlit app:**
+    ```bash
+    streamlit run app.py
+    ```
+
+## 📬 Contact
+
+Garent Ecklesia - [garentecklesia45678@gmail.com](mailto:garentecklesia45678@gmail.com)
+
+## 📝 License
+This project is open-source and free to use for educational and research purposes.
